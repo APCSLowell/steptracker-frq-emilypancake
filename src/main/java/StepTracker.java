@@ -30,7 +30,7 @@ public class StepTracker
   //  b += i;
   // }
   // return (double)b/steps.size();
-  return steps(double)/days;
+  return (double)steps/days;
  }
  public int activeDays(){
   // int c = 0;
