@@ -29,6 +29,9 @@ public class StepTracker
   for(int i : steps){
    b += i;
   }
+  if(b == 0){
+   return b;
+  }
   return (double)b/steps.size();
   // return (double)steps/days;
  }
